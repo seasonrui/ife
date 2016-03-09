@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrap{
+	max-width: 1000px;
+	margin: 20px auto;
+
+}
+.wrap .warn{
+	color: red;
+}
+.wrap h1,p{
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+/*输入框提示*/
+.suggest input{
+	width: 200px;
+	height: 25px;
+	padding: 3px 5px;
+	font-size: 14px;
+}
+.suggest ul{
+	display: none;
+	border: 1px solid #ccc;
+	border-top: none;
+	width: 210px;
+} 
+.suggest li{
+	list-style: none;
+	padding: 3px 5px;
+	cursor: pointer;
+	
+}
+.suggest span{
+	color: red;
+}
+.suggest .active{
+	background: #ccc;
+}
+
+/*界面拖拽交互*/
+.drag-block{
+	position: relative;
+}
+.left-block,.right-block{
+	width: 230px;
+	height: 496px;
+	border: 1px solid #000;
+	float: left;
+	margin-left: 200px;
+}
+.left-block .block,.right-block .block{
+	width: 230px;
+	height: 60px;
+	border-bottom: 1px solid #000;
+	background: red;
+}
+.move{
+	width: 230px;
+	height: 60px;
+	border-bottom: 1px solid #000;
+	background: blue;
+}
